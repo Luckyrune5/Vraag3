@@ -1,3 +1,12 @@
+
+on:
+push:
+branches:
+- main
+
+jobs:
+            steps:
+
             - name: Repo Visualizer
   # You may pin to the exact commit or the version.
   # uses: githubocto/repo-visualizer@a999615bdab757559bf94bda1fe6eef232765f85
